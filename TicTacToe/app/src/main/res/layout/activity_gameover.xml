@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Game Over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/textView"
+        android:textSize="70sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_Info"
+        android:textSize="30sp"
+        android:text="afjksdkfj"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Restart"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="36sp"
+        android:id="@+id/btn_restart"
+        android:enabled="true"
+        android:layout_alignTop="@+id/txt_Info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp" />
+
+    <Button
+        android:text="New Game"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="36sp"
+        android:id="@+id/btn_newGame"
+        android:enabled="true"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_restart" />
+
+</RelativeLayout>
